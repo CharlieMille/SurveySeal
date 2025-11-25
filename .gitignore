@@ -1,0 +1,58 @@
+# Sensitive files
+*.env
+*.log
+.env.local
+.env.*.local
+
+# IDE and editor files
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build artifacts and cache
+fhevmTemp/
+artifacts/
+build/
+cache/
+coverage/
+dist/
+types/
+deployments/
+.next/
+out/
+.vercel/
+
+# FHEVM specific
+fhevmTemp/
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+coverage.json
+
+# OS files
+.DS_Store
+.pnp.*
+*.log
+
+# Lock files (keep package-lock.json, ignore others)
+pnpm-lock.yaml
+yarn.lock
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Temporary files
+tmp/
+*.tmp
+
