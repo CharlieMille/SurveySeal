@@ -103,6 +103,10 @@ npm run build
 
 The static export will be available in the `out/` directory.
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
 ## License
 
 BSD-3-Clause-Clear
